@@ -1,0 +1,43 @@
+---
+title: "Life Sketch"
+author: "Alessandro Moscatelli"
+date: "3/29/2020"
+output:
+  html_document:
+    theme: spacelab
+    highlight: tango
+---
+  
+## Alessandro Moscatelli {.tabset .tabset-fade .tabset-pills}
+
+```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
+knitr::include_graphics('amoscatelli.png')
+```
+
+M.D., Ph.D., he is tenure track researcher at University of Rome "Tor Vergata" and junior group leader at Santa Lucia Foundation IRCCS in Rome. Since 2018, he is board member of the EuroHaptics Society. His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework.
+
+### Education and past work experience
+
+He received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, lead by Prof. M.O. Ernst. 
+
+### Funding
+
+He is principal investigator in the research project ‘understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Principal investigator in the Italian project "TIGHT: Tactile InteGration for Humans and arTificial systems" (PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap". 
+
+### Pubblications
+
+Alessandro Moscatelli has published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc. He has over 450 citations (Scopus).
+
+### External Links
+
+[ORCID](https://orcid.org/0000-0001-6269-4536)
+
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=54886426100)
+
+[Publons](https://publons.com/researcher/1605615/alessandro-moscatelli/)
+
+[Google Scholar](https://scholar.google.it/citations?user=jOA38scAAAAJ&hl=it&oi=ao)
+
+[GitHub](https://github.com/moskante)
+
+[University of Rome Tor Vergata](http://directory.uniroma2.it/index.php/chart/dettagliDocente/14662)
