@@ -15,25 +15,31 @@ output:
     highlight: tango
 ---
   
-## Alessandro Moscatelli {.tabset .tabset-fade .tabset-pills}
+## Neuroscience, Haptics, and more {.tabset .tabset-fade .tabset-pills}
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
 ```
 
-M.D., Ph.D., he is tenure track researcher at University of Rome "Tor Vergata" and junior group leader at Santa Lucia Foundation IRCCS in Rome. Since 2018, he is board member of the EuroHaptics Society. His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework.
+M.D., Ph.D., he is tenure track researcher at University of Rome "Tor Vergata" and junior group leader at Santa Lucia Foundation IRCCS in Rome. Since 2018, he is board member of the EuroHaptics Society. His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework. He published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc.
 
 ### Education and past work experience
 
-He received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, lead by Prof. M.O. Ernst. 
+Alessandro Moscatelli received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, lead by Prof. M.O. Ernst. 
 
 ### Funding
 
 He is principal investigator in the research project ‘understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Principal investigator in the Italian project "TIGHT: Tactile InteGration for Humans and arTificial systems" (PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap". 
 
-### Pubblications
+### Selected Pubblications
 
-Alessandro Moscatelli has published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc. He has over 450 citations (Scopus).
+Moscatelli, A., Bianchi, M., Ciotti, S., Bettelani, G. C., Parise, C. V., Lacquaniti, F., Bicchi, A. (2019). Touch as an auxiliary proprioceptive cue for movement control. Science advances, 5(6), eaaw3121.
+
+Moscatelli, A., Bianchi, M., Serio, A., Terekhov, A., Hayward, V., Ernst, M. O., Bicchi, A. (2016) [The Change in Fingertip Contact Area as a Novel Proprioceptive Cue](http://dx.doi.org/10.1016/j.cub.2016.02.052). Current Biology, 26, 1159-1163 
+
+Dallmann, C.J., Ernst, M.O., Moscatelli, A. (2015) [The role of vibration in tactile speed perception](http://doi.org/10.1152/jn.00621.2015). Journal of Neurophysiology, 114(6), 3131-3139.  
+
+Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). Modeling psychophysical data at the population-level: The generalized linear mixed model. Journal of Vision 12:26, 1-17.
 
 ### External Links
 
