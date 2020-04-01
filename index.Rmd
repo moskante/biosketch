@@ -1,8 +1,8 @@
 ---
-title: "Index"
+title: "Current Position"
 ---
 
-M.D., Ph.D., he is tenure track researcher at University of Rome "Tor Vergata" and junior group leader at Santa Lucia Foundation IRCCS in Rome. Since 2018, he is board member of the EuroHaptics Society. 
+M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, RomeItaly. Since 2018, he is board member of the EuroHaptics Society.
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
