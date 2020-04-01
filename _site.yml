@@ -1,0 +1,14 @@
+name: "lifesketch"
+output_dir: "docs"
+
+navbar:
+  title: "Alessandro Moscatelli"
+  left:
+  - text: "Home"
+    href: index.html
+  - text: "Life Sketch"
+    href: biosketch.html
+   
+output:
+  html_document:
+    theme: cosmo

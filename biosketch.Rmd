@@ -1,25 +1,10 @@
 ---
 title: "Alessandro Moscatelli"
-
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-
-output:
-  html_document:
-    theme: spacelab
-    highlight: tango
 ---
   
 ## Neuroscience, Haptics, and more {.tabset .tabset-fade .tabset-pills}
 
-```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
-knitr::include_graphics('amoscatelli.png')
-```
-
-M.D., Ph.D., he is tenure track researcher at University of Rome "Tor Vergata" and junior group leader at Santa Lucia Foundation IRCCS in Rome. Since 2018, he is board member of the EuroHaptics Society. His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework. He published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc.
+His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework. He published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc.
 
 ### Education and past work experience
 
