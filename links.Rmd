@@ -2,13 +2,13 @@
 title: "links"
 ---
 
-Below a collections of my favourite web sites, books, tutorials etc.
+A collections of my favourite web sites, books, tutorials etc.
 
-## Basic R
+## Basic R {.tabset .tabset-fade .tabset-pills}
 
 [CRAN](https://cran.r-project.org/)
 
-## Tidyverse
+## Tidyverse {.tabset .tabset-fade .tabset-pills}
 
 [Tidyverse.org](https://www.tidyverse.org/)
 
@@ -16,10 +16,12 @@ Below a collections of my favourite web sites, books, tutorials etc.
 
 [Advanced R](https://adv-r.hadley.nz/)
 
-## R Markdown
+## R Markdown {.tabset .tabset-fade .tabset-pills}
 
 [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
-## Graphics
+[Github and RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
+
+## Graphics {.tabset .tabset-fade .tabset-pills}
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
