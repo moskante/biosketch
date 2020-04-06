@@ -1,14 +1,20 @@
 ---
-title: "links"
+title: "External links"
 ---
+
+## Data Science and beyond {.tabset .tabset-fade .tabset-pills}
 
 A collections of my favourite web sites, books, tutorials etc.
 
-## Basic R {.tabset .tabset-fade .tabset-pills}
+### Basic R and Editors
 
 [CRAN](https://cran.r-project.org/)
 
-## Tidyverse {.tabset .tabset-fade .tabset-pills}
+[RStudio](https://rstudio.com/)
+
+[Anaconda](https://www.anaconda.com/distribution/)
+
+### Tidyverse
 
 [Tidyverse.org](https://www.tidyverse.org/)
 
@@ -16,12 +22,18 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [Advanced R](https://adv-r.hadley.nz/)
 
-## R Markdown {.tabset .tabset-fade .tabset-pills}
+### R Markdown
 
 [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
 [Github and RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
 
-## Graphics {.tabset .tabset-fade .tabset-pills}
+### Graphics
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
+
+### Ebooks Miscellanea
+
+[Neuroscience of Purves companion website](https://neuroscience5e.sinauer.com/)
+
+[The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/)
