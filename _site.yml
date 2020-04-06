@@ -8,7 +8,9 @@ navbar:
     href: index.html
   - text: "Life Sketch"
     href: biosketch.html
-   
+  - text: "External Links - R and friends"
+    href: links.html
+
 output:
   html_document:
     theme: cosmo
