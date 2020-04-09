@@ -1,10 +1,10 @@
 ---
-title: "Current Position"
+title: "Reseach Interests"
 ---
 
-M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, RomeItaly. Since 2018, he is board member of the EuroHaptics Society.
+## Neuroscience, Haptics, and more 
 
-```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
-knitr::include_graphics('amoscatelli.png')
-```
+My current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. I have an excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. In collaboration with P. Balestrucci, I am the developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework. I published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc.
+
+
 

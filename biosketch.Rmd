@@ -1,10 +1,14 @@
 ---
 title: "Alessandro Moscatelli"
 ---
-  
-## Neuroscience, Haptics, and more {.tabset .tabset-fade .tabset-pills}
 
-His current research interests include haptic, the integration of proprioception and touch, tactile and visual perception of motion, and motor control of the hand. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models, developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework. He published more than 35 peer-reviewed papers in top neuroscience journals including Current Biology, Science Advances, Journal of Vision, Journal of Neurophysiology, etc.
+## Current position {.tabset .tabset-fade .tabset-pills}
+
+M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, RomeItaly. Since 2018, he is board member of the EuroHaptics Society.
+
+```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
+knitr::include_graphics('amoscatelli.png')
+```
 
 ### Education and past work experience
 
@@ -38,4 +42,4 @@ Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). [Modeling psychophysica
 
 [University of Rome Tor Vergata](http://directory.uniroma2.it/index.php/chart/dettagliDocente/14662)
 
-[MixedPsychophysics](www.mixedpsychophysics.wordpress.com)
+[MixedPsychophysics](https://mixedpsychophysics.wordpress.com/)
