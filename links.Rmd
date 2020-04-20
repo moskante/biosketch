@@ -34,6 +34,8 @@ A collections of my favourite web sites, books, tutorials etc.
 
 ### Ebooks Miscellanea
 
-[Neuroscience of Purves companion website](https://neuroscience5e.sinauer.com/)
+[Purves' Neuroscience companion website](https://neuroscience5e.sinauer.com/)
 
 [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/)
+
+[Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
