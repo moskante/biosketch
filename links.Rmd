@@ -32,10 +32,12 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
 
-### Ebooks Miscellanea
+### Miscellanea
 
 [Purves' Neuroscience companion website](https://neuroscience5e.sinauer.com/)
 
 [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/)
 
 [Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
+
+[kaggle](https://www.kaggle.com/)
