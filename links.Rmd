@@ -40,4 +40,6 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
 
+[Mathematics for Machine Learning](https://mml-book.github.io/)
+
 [kaggle](https://www.kaggle.com/)
