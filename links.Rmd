@@ -12,7 +12,7 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [RStudio](https://rstudio.com/)
 
-[R Cloud](https://rstudio.cloud/)
+[RStudio Cloud](https://rstudio.cloud/)
 
 [Anaconda](https://www.anaconda.com/distribution/)
 
