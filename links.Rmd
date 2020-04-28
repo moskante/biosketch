@@ -12,6 +12,8 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [RStudio](https://rstudio.com/)
 
+[R Cloud](https://rstudio.cloud/)
+
 [Anaconda](https://www.anaconda.com/distribution/)
 
 ### Tidyverse
@@ -42,4 +44,4 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [Mathematics for Machine Learning](https://mml-book.github.io/)
 
-[kaggle](https://www.kaggle.com/)
+[Kaggle](https://www.kaggle.com/)
