@@ -4,7 +4,7 @@ title: "Alessandro Moscatelli"
 
 ## Current position {.tabset .tabset-fade .tabset-pills}
 
-M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, RomeItaly. Since 2018, he is board member of the EuroHaptics Society.
+M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present).
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
@@ -12,7 +12,7 @@ knitr::include_graphics('amoscatelli.png')
 
 ### Education and past work experience
 
-Alessandro Moscatelli received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, lead by Prof. M.O. Ernst. 
+Alessandro Moscatelli received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, led by Prof. M.O. Ernst. 
 
 ### Funding
 
