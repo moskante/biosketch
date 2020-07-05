@@ -36,11 +36,9 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
 
-### Miscellanea
+### Statistics and Machine Learning
 
-[Purves' Neuroscience companion website](https://neuroscience5e.sinauer.com/)
-
-[The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/)
+[An introduction to Machine Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 [Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
 
@@ -51,4 +49,11 @@ A collections of my favourite web sites, books, tutorials etc.
 [fast AI](https://www.fast.ai/)
 
 [blog: UC R programming guide](https://uc-r.github.io/)
+
+### Miscellanea
+
+[Purves' Neuroscience companion website](https://neuroscience5e.sinauer.com/)
+
+[The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/)
+
 
