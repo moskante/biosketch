@@ -38,7 +38,7 @@ A collections of my favourite web sites, books, tutorials etc.
 
 ### Statistics and Machine Learning
 
-[An introduction to Machine Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+[An introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 [Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
 
