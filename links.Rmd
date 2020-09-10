@@ -46,6 +46,10 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python)
 
+[Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+
+[Introductory Statistics with Randomization and Simulation](https://open.umn.edu/opentextbooks/textbooks/549)
+
 [fast AI](https://www.fast.ai/)
 
 [blog: UC R programming guide](https://uc-r.github.io/)

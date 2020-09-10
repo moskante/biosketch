@@ -4,7 +4,7 @@ title: "Alessandro Moscatelli"
 
 ## Current position {.tabset .tabset-fade .tabset-pills}
 
-M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean the Beatles song. Science is fun, academia is sometimes boring.
+M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
