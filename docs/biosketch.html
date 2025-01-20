@@ -13,22 +13,36 @@
 
 <title>Alessandro Moscatelli</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -41,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -76,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -96,40 +82,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -157,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -169,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -179,11 +141,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -195,13 +174,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -209,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -262,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -288,7 +259,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -297,34 +268,83 @@ $(document).ready(function () {
 </div>
 
 
-<div id="current-position" class="section level2 tabset tabset-fade tabset-pills">
-<h2>Current position</h2>
-<p>M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome “Tor Vergata” and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018–present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles’ song. Science is fun, academia is sometimes boring.</p>
+<div id="current-position"
+class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Current position</h2>
+<p>M.D., Ph.D., he Associate Professor at Department of Systems
+Medicine, University of Rome “Tor Vergata” and group leader of the
+Haptic Team at Laboratory of Neuromotor Physiology, Santa Lucia
+Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics
+Society (2018–present). He introduces random sentences in bio sketches
+like the extraordinary life of penguins, or strawberry fields I mean The
+Beatles’ song. Science is fun, academia is sometimes boring.</p>
 <p><img src="amoscatelli.png" width="10%" /></p>
 <div id="education-and-past-work-experience" class="section level3">
 <h3>Education and past work experience</h3>
-<p>Alessandro Moscatelli received a Medical Doctor degree and a postgraduate master’s degree from the University of Rome ‘Tor Vergata’, in 2006 and 2008 respectively, both cum laude. He received the PhD in Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post Doc at the Department of Cognitive Neuroscience and CITEC of the Bielefeld University, led by Prof. M.O. Ernst.</p>
+<p>Alessandro Moscatelli received a Medical Doctor degree and a
+postgraduate master’s degree from the University of Rome ‘Tor Vergata’,
+in 2006 and 2008 respectively, both cum laude. He received the PhD in
+Neuroscience from University of Rome ‘Tor Vergata’ in 2010, under
+supervision of Prof. F. Lacquaniti. From 2011 to 2015, he worked as Post
+Doc at the Department of Cognitive Neuroscience and CITEC of the
+Bielefeld University, led by Prof. M.O. Ernst.</p>
 </div>
 <div id="funding" class="section level3">
 <h3>Funding</h3>
-<p>He is principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project “TIGHT: Tactile InteGration for Humans and arTificial systems” (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects “THE: The Hand Embodied” and “WearHap”.</p>
+<p>2024 - 2026 PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE
+NAZIONALE. Titolo del Progetto “COordination and iNtegration of motion
+in the TACTile and motor system - CONTACT”. Settore SH4; Codice Progetto
+2020EL3FZL. Responsabile del’Unita di Ricerca Di- partimento di Medicina
+dei Sistemi, Universita degli Studi di Roma Tor Vergata.</p>
+<p>October 2022 - September 2026 Team Leader (Haptics Team - Santa Lucia
+Foundation Unit) in Horizon RIA grant: “HARIA HUMAN-ROBOT SENSORIMOTOR
+AUGMENTATION WEARABLE SENSORIMOTOR INTER- FACES” (Proposal number:
+101070292).</p>
+<p>He was principal investigator in the research project ‘Understanding
+tactile motion for rendering’, founded by and in collaboration with
+Facebook Reality lab (Facebook Inc.), and in collaboration with the
+University of Pisa. Work Package leader in the project “TIGHT: Tactile
+InteGration for Humans and arTificial systems” (Italian PRIN project;
+grant number: 2017SB48FP). He was co-investigator in the European
+projects “THE: The Hand Embodied” and “WearHap”.</p>
 </div>
 <div id="selected-pubblications" class="section level3">
 <h3>Selected Pubblications</h3>
-<p>Moscatelli, A., Bianchi, M., Ciotti, S., Bettelani, G. C., Parise, C. V., Lacquaniti, F., Bicchi, A. (2019). <a href="https://advances.sciencemag.org/content/5/6/eaaw3121">Touch as an auxiliary proprioceptive cue for movement control</a>. Science advances, 5(6), eaaw3121.</p>
-<p>Moscatelli, A., Bianchi, M., Serio, A., Terekhov, A., Hayward, V., Ernst, M. O., Bicchi, A. (2016) <a href="http://dx.doi.org/10.1016/j.cub.2016.02.052">The Change in Fingertip Contact Area as a Novel Proprioceptive Cue</a>. Current Biology, 26, 1159-1163</p>
-<p>Dallmann, C.J., Ernst, M.O., Moscatelli, A. (2015) <a href="http://doi.org/10.1152/jn.00621.2015">The role of vibration in tactile speed perception</a>. Journal of Neurophysiology, 114(6), 3131-3139.</p>
-<p>Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). <a href="https://doi.org/10.1167/12.11.26">Modeling psychophysical data at the population-level: The generalized linear mixed model</a>. Journal of Vision 12:26, 1-17.</p>
+<p>Moscatelli, A., Bianchi, M., Ciotti, S., Bettelani, G. C., Parise, C.
+V., Lacquaniti, F., Bicchi, A. (2019). <a
+href="https://advances.sciencemag.org/content/5/6/eaaw3121">Touch as an
+auxiliary proprioceptive cue for movement control</a>. Science advances,
+5(6), eaaw3121.</p>
+<p>Moscatelli, A., Bianchi, M., Serio, A., Terekhov, A., Hayward, V.,
+Ernst, M. O., Bicchi, A. (2016) <a
+href="http://dx.doi.org/10.1016/j.cub.2016.02.052">The Change in
+Fingertip Contact Area as a Novel Proprioceptive Cue</a>. Current
+Biology, 26, 1159-1163</p>
+<p>Dallmann, C.J., Ernst, M.O., Moscatelli, A. (2015) <a
+href="http://doi.org/10.1152/jn.00621.2015">The role of vibration in
+tactile speed perception</a>. Journal of Neurophysiology, 114(6),
+3131-3139.</p>
+<p>Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). <a
+href="https://doi.org/10.1167/12.11.26">Modeling psychophysical data at
+the population-level: The generalized linear mixed model</a>. Journal of
+Vision 12:26, 1-17.</p>
 </div>
 <div id="academic-profiles-and-metrics" class="section level3">
 <h3>Academic Profiles and Metrics</h3>
 <p><a href="https://orcid.org/0000-0001-6269-4536">ORCID</a></p>
-<p><a href="https://www.scopus.com/authid/detail.uri?authorId=54886426100">Scopus</a></p>
-<p><a href="https://publons.com/researcher/1605615/alessandro-moscatelli/">Publons</a></p>
-<p><a href="https://scholar.google.it/citations?user=jOA38scAAAAJ&amp;hl=it&amp;oi=ao">Google Scholar</a></p>
+<p><a
+href="https://www.scopus.com/authid/detail.uri?authorId=54886426100">Scopus</a></p>
+<p><a
+href="https://publons.com/researcher/1605615/alessandro-moscatelli/">Publons</a></p>
+<p><a
+href="https://scholar.google.it/citations?user=jOA38scAAAAJ&amp;hl=it&amp;oi=ao">Google
+Scholar</a></p>
 <p><a href="https://github.com/moskante">GitHub</a></p>
-<p><a href="http://directory.uniroma2.it/index.php/chart/dettagliDocente/14662">University of Rome Tor Vergata</a></p>
-<p><a href="https://mixedpsychophysics.wordpress.com/">MixedPsychophysics</a></p>
+<p><a
+href="http://directory.uniroma2.it/index.php/chart/dettagliDocente/14662">University
+of Rome Tor Vergata</a></p>
+<p><a
+href="https://mixedpsychophysics.wordpress.com/">MixedPsychophysics</a></p>
 </div>
 </div>
 
@@ -337,7 +357,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -355,7 +375,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

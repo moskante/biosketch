@@ -4,7 +4,7 @@ title: "Alessandro Moscatelli"
 
 ## Current position {.tabset .tabset-fade .tabset-pills}
 
-M.D., Ph.D., he is tenure track researcher (RTDb) at Department of Systems Medicine, University of Rome "Tor Vergata" and junior group leader at Department of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
+M.D., Ph.D., he Associate Professor at Department of Systems Medicine, University of Rome "Tor Vergata" and group leader of the Haptic Team at Laboratory of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
@@ -16,7 +16,15 @@ Alessandro Moscatelli received a Medical Doctor degree and a postgraduate master
 
 ### Funding
 
-He is principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap". 
+2024 - 2026 PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE.
+Titolo del Progetto “COordination and iNtegration of motion in the TACTile and motor system - CONTACT”. Settore SH4; Codice Progetto 2020EL3FZL. Responsabile del’Unita di Ricerca Di-
+partimento di Medicina dei Sistemi, Universita degli Studi di Roma Tor Vergata.
+
+October 2022 - September 2026
+Team Leader (Haptics Team - Santa Lucia Foundation Unit) in Horizon RIA grant: “HARIA HUMAN-ROBOT SENSORIMOTOR AUGMENTATION WEARABLE SENSORIMOTOR INTER-
+FACES” (Proposal number: 101070292).
+
+He was principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap". 
 
 ### Selected Pubblications
 
