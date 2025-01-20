@@ -2,9 +2,46 @@
 title: "Reseach Interests"
 ---
 
-## Neuroscience, Haptics, and more 
+## Neuroscience Haptics and more {.tabset .tabset-fade .tabset-pills}
 
-My current research interests include haptics, multisensory integration, tactile and visual perception of motion, and motor control of the hand. I have an excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. In collaboration with P. Balestrucci, I am the developer and maintainer of the R package MixedPsy for the estimate of psychophysical parameters in mixed model framework.
+My current research interests include haptics, multisensory integration, tactile and visual perception of motion, and motor control of the hand. I have an excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). 
 
+In collaboration with Priscilla Balestrucci, developer and maintainer of the R package [MixedPsy](https://cran.r-project.org/web/packages/MixedPsy/index.html): tools for the analysis of psychophysical data in R.
 
+### Institutional Website
 
+[University of Rome Tor Vergata](https://directory.uniroma2.it/index.php/chart/dettagliDocente/14662)
+
+[Fondazione Santa Lucia IRCCS](https://www.hsantalucia.it/)
+
+### Teaching
+
+...way too much! [Here](https://didattica.uniroma2.it/docenti/curriculum_vitae/14662-Alessandro-Moscatelli)
+
+### The Haptic Team
+
+_Post Docs_
+
+Priscilla Balestrucci, Ph.D.
+
+Sylvain Famié, Ph.D.
+
+_Ph.D. Students_
+
+Aurelia Schirripa
+
+_Master Students_
+
+Alessio Lin
+
+Alice Flamini
+
+Domenica Mele
+
+Fanny Valente
+
+Francesca Campana
+
+Giulia Daniele
+
+Raffaella Santucci

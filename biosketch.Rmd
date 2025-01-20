@@ -2,9 +2,9 @@
 title: "Alessandro Moscatelli"
 ---
 
-## Current position {.tabset .tabset-fade .tabset-pills}
+## Short Biosketch {.tabset .tabset-fade .tabset-pills}
 
-M.D., Ph.D., he is Associate Professor at the Department of Systems Medicine, University of Rome "Tor Vergata" and leader of the Haptic Team at Laboratory of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the EuroHaptics Society (2018--present). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
+M.D., Ph.D., he is Associate Professor at the Department of Systems Medicine, University of Rome "Tor Vergata" and leader of the Haptic Team at Laboratory of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the [EuroHaptics Society](https://eurohaptics.org/executive-committee/) (2018--present) and Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')
@@ -27,6 +27,8 @@ FACES” (Proposal number: 101070292).
 He was principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap".
 
 ### Selected Pubblications
+
+Ryan, C. P., Ciotti, S., Balestrucci, P., Bicchi, A., Lacquaniti, F., Bianchi, M., Moscatelli, A. (2024). [The relativity of reaching: Motion of the touched surface alters the trajectory of hand movements](https://www.cell.com/iscience/fulltext/S2589-0042(24)01093-9). Iscience, 27(6).
 
 Moscatelli, A., Bianchi, M., Ciotti, S., Bettelani, G. C., Parise, C. V., Lacquaniti, F., Bicchi, A. (2019). [Touch as an auxiliary proprioceptive cue for movement control](https://advances.sciencemag.org/content/5/6/eaaw3121). Science advances, 5(6), eaaw3121.
 
