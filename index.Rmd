@@ -1,12 +1,28 @@
 ---
-title: "Reseach Interests"
+title: "Haptics Lab"
 ---
 
 ## Neuroscience Haptics and more {.tabset .tabset-fade .tabset-pills}
 
-My current research interests include haptics, multisensory integration, tactile and visual perception of motion, and motor control of the hand. I have an excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). 
+Our current research interests include haptics, motor control of the hand, multisensory integration, tactile and visual perception of motion.
 
-In collaboration with Priscilla Balestrucci, developer and maintainer of the R package [MixedPsy](https://cran.r-project.org/web/packages/MixedPsy/index.html): tools for the analysis of psychophysical data in R.
+```{r, echo = FALSE, out.width='40%', fig.margin = TRUE, fig.cap= 'from: (Moscatelli et al., 2016)'}
+knitr::include_graphics('cb-moscatelli-2016.jpg')
+```
+
+
+### Selected Pubblications
+
+Ryan, C. P., Ciotti, S., Balestrucci, P., Bicchi, A., Lacquaniti, F., Bianchi, M., Moscatelli, A. (2024). [The relativity of reaching: Motion of the touched surface alters the trajectory of hand movements](https://www.cell.com/iscience/fulltext/S2589-0042(24)01093-9). Iscience, 27(6).
+
+Moscatelli, A., Bianchi, M., Ciotti, S., Bettelani, G. C., Parise, C. V., Lacquaniti, F., Bicchi, A. (2019). [Touch as an auxiliary proprioceptive cue for movement control](https://advances.sciencemag.org/content/5/6/eaaw3121). Science advances, 5(6), eaaw3121.
+
+Moscatelli, A., Bianchi, M., Serio, A., Terekhov, A., Hayward, V., Ernst, M. O., Bicchi, A. (2016) [The Change in Fingertip Contact Area as a Novel Proprioceptive Cue](http://dx.doi.org/10.1016/j.cub.2016.02.052). Current Biology, 26, 1159-1163 
+
+Dallmann, C.J., Ernst, M.O., Moscatelli, A. (2015) [The role of vibration in tactile speed perception](http://doi.org/10.1152/jn.00621.2015). Journal of Neurophysiology, 114(6), 3131-3139.  
+
+Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). [Modeling psychophysical data at the population-level: The generalized linear mixed model](https://doi.org/10.1167/12.11.26). Journal of Vision 12:26, 1-17.
+
 
 ### Institutional Website
 
@@ -14,11 +30,25 @@ In collaboration with Priscilla Balestrucci, developer and maintainer of the R p
 
 [Fondazione Santa Lucia IRCCS](https://www.hsantalucia.it/)
 
-### Teaching
 
-...way too much! [Here](https://didattica.uniroma2.it/docenti/curriculum_vitae/14662-Alessandro-Moscatelli)
+### Fundings
 
-### The Haptic Team
+2024 - 2026 
+Italian grant PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE.
+Title of the project: "COordination and iNtegration of motion in the TACTile and motor system - CONTACT". Settore SH4; Codice Progetto 2020EL3FZL. Responsabile dell’Unita di Ricerca Dipartimento di Medicina dei Sistemi, Universita degli Studi di Roma Tor Vergata.
+
+2022 - 2026
+Team Leader (Haptics Team - Santa Lucia Foundation Unit) in Horizon RIA grant: “HARIA HUMAN-ROBOT SENSORIMOTOR AUGMENTATION WEARABLE SENSORIMOTOR INTER-
+FACES” (Proposal number: 101070292).
+
+He was principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap".
+
+
+### The Team
+
+_Group Leader_
+
+Alessandro Moscatelli
 
 _Post Docs_
 

@@ -4,7 +4,7 @@ output_dir: "docs"
 navbar:
   title: "Alessandro Moscatelli"
   left:
-  - text: "Home"
+  - text: "Haptics Lab"
     href: index.html
   - text: "Life Sketch"
     href: biosketch.html
