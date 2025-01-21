@@ -1,24 +1,25 @@
 ---
-title: "External links"
+title: "Software and External links"
 ---
 
-## Data Science and beyond {.tabset .tabset-fade .tabset-pills}
 
-A collections of my favourite web sites, books, tutorials etc.
+## {.tabset .tabset-fade .tabset-pills}
+
+## MixedPsy
+
+Alessandro Moscatelli and Priscilla Balestrucci are developer and maintainer of the R package [MixedPsy](https://cran.r-project.org/web/packages/MixedPsy/index.html): tools for the analysis of psychophysical data in R. The package is described in detail in the following reference:
+
+Balestrucci, P., Ernst, M. O., Moscatelli, A. (2022). [Psychophysics with R: The R Package MixedPsy.](https://www.biorxiv.org/content/10.1101/2022.06.20.496855v1.abstract) bioRxiv, 2022-06.
+
+## Data 
+
+to be populated
+
+## Other websites {.tabset .tabset-fade .tabset-pills}
+
+A collections of my favorite web sites, books, tutorials etc.
 
 ### R and Data Science
-
-[CRAN](https://cran.r-project.org/)
-
-[RStudio](https://rstudio.com/)
-
-[RStudio Cloud](https://rstudio.cloud/)
-
-[Anaconda](https://www.anaconda.com/distribution/)
-
-[Kaggle](https://www.kaggle.com/)
-
-### Tidyverse
 
 [Tidyverse.org](https://www.tidyverse.org/)
 
@@ -26,13 +27,9 @@ A collections of my favourite web sites, books, tutorials etc.
 
 [Advanced R](https://adv-r.hadley.nz/)
 
-### R Markdown
-
 [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
 [Github and RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
-
-### Graphics
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
 

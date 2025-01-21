@@ -1,16 +1,12 @@
 ---
-title: "Alessandro Moscatelli"
+title: "Biosketch"
 ---
 
-## Biosketch {.tabset .tabset-fade .tabset-pills}
+## Alessandro Moscatelli {.tabset .tabset-fade .tabset-pills}
 
-M.D., Ph.D., he is Associate Professor at the Department of Systems Medicine, University of Rome "Tor Vergata" and leader of the Haptic Team at Laboratory of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. He is a board member of the [EuroHaptics Society](https://eurohaptics.org/executive-committee/) (2018--present) and Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). 
+M.D., Ph.D., Associate Professor at the Department of Systems Medicine, University of Rome "Tor Vergata" and leader of the Haptics Team at Laboratory of Neuromotor Physiology, Santa Lucia Foundation IRCCS, Rome, Italy. Board member of the [EuroHaptics Society](https://eurohaptics.org/executive-committee/) (2018--present). Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). 
 
-Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. Associate Editor for [IEEE Transaction on Haptics](https://www.ieee-ras.org/publications/toh/editorial-board) and for [Frontiers in Physiology - Integrative Physiology](https://www.frontiersin.org/journals/physiology/editors). 
-
-In collaboration with Priscilla Balestrucci, developer and maintainer of the R package [MixedPsy](https://cran.r-project.org/web/packages/MixedPsy/index.html): tools for the analysis of psychophysical data in R.
-
-He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
+Research interests in haptics, touch, motor control of the hand, multisensory integration. Excellent knowledge of statistical inference, expert in Generalized Linear Mixed Models and Bayesian Models. He introduces random sentences in bio sketches like the extraordinary life of penguins, or strawberry fields I mean The Beatles' song. Science is fun, academia is sometimes boring.
 
 ```{r, echo = FALSE, out.width='10%', fig.margin = TRUE}
 knitr::include_graphics('amoscatelli.png')

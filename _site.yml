@@ -4,11 +4,11 @@ output_dir: "docs"
 navbar:
   title: "Alessandro Moscatelli"
   left:
-  - text: "Haptics Lab"
-    href: index.html
-  - text: "Life Sketch"
+  - text: "Biosketch"
     href: biosketch.html
-  - text: "External Links - R and friends"
+  - text: "Haptics Team"
+    href: index.html
+  - text: "Software and External links"
     href: links.html
 
 output:

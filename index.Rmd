@@ -1,5 +1,5 @@
 ---
-title: "Haptics Lab"
+title: "Haptics Team"
 ---
 
 ## Neuroscience Haptics and more {.tabset .tabset-fade .tabset-pills}
@@ -31,20 +31,27 @@ Moscatelli, A., Mezzetti, M., and Lacquaniti, F. (2012). [Modeling psychophysica
 [Fondazione Santa Lucia IRCCS](https://www.hsantalucia.it/)
 
 
-### Fundings
+### Funded Projects
 
-2024 - 2026 
+_2024 - 2026_ 
+
 Italian grant PRIN: PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE.
 Title of the project: "COordination and iNtegration of motion in the TACTile and motor system - CONTACT". Settore SH4; Codice Progetto 2020EL3FZL. Responsabile dell’Unita di Ricerca Dipartimento di Medicina dei Sistemi, Universita degli Studi di Roma Tor Vergata.
 
-2022 - 2026
-Team Leader (Haptics Team - Santa Lucia Foundation Unit) in Horizon RIA grant: “HARIA HUMAN-ROBOT SENSORIMOTOR AUGMENTATION WEARABLE SENSORIMOTOR INTER-
-FACES” (Proposal number: 101070292).
+_2022 - 2026_
 
-He was principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa. Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP). He was co-investigator in the European projects "THE: The Hand Embodied" and "WearHap".
+Team Leader (Haptics Team - Santa Lucia Foundation Unit) in Horizon RIA grant: [HARIA HUMAN-ROBOT SENSORIMOTOR AUGMENTATION WEARABLE SENSORIMOTOR INTERFACES](https://clem.diism.unisi.it/~haria/) (Proposal number: 101070292).
+
+_Previous funded projects_
+
+Principal investigator in the research project ‘Understanding tactile motion for rendering’, founded by and in collaboration with Facebook Reality lab (Facebook Inc.), and in collaboration with the University of Pisa.
+
+Work Package leader in the project "TIGHT: Tactile InteGration for Humans and arTificial systems" (Italian PRIN project; grant number: 2017SB48FP).
+
+Co-investigator in the European projects "THE: The Hand Embodied" and "WearHap".
 
 
-### The Team
+### People
 
 _Group Leader_
 
@@ -58,7 +65,9 @@ Sylvain Famié, Ph.D.
 
 _Ph.D. Students_
 
-Aurelia Schirripa
+Aurelia Schirripa (with [Viviana Betti](https://www.cosynclab.it/lab-members.html) )
+
+Anna Vitale (with [Monica Gori](https://u-vip.iit.it/people-details/-/people/monica-gori) )
 
 _Master Students_
 
