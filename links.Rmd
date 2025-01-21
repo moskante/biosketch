@@ -19,7 +19,19 @@ to be populated
 
 A collections of my favorite web sites, books, tutorials etc.
 
-### R and Data Science
+### Statistical Inference and Machine Learning
+
+[An introduction to Statistical Learning](https://www.statlearning.com/)
+
+[Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
+
+[Mathematics for Machine Learning](https://mml-book.github.io/)
+
+[fast AI](https://www.fast.ai/)
+
+[blog: UC R programming guide](https://uc-r.github.io/)
+
+### Data Science with R and Python
 
 [Tidyverse.org](https://www.tidyverse.org/)
 
@@ -33,23 +45,9 @@ A collections of my favorite web sites, books, tutorials etc.
 
 [The R Graphics Coockbock](http://www.cookbook-r.com/Graphs/)
 
-### Statistics and Machine Learning
-
-[An introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
-
-[Bishop's Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
-
-[Mathematics for Machine Learning](https://mml-book.github.io/)
+[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python)
-
-[Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
-
-[Introductory Statistics with Randomization and Simulation](https://open.umn.edu/opentextbooks/textbooks/549)
-
-[fast AI](https://www.fast.ai/)
-
-[blog: UC R programming guide](https://uc-r.github.io/)
 
 ### Miscellanea
 
