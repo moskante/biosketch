@@ -6,7 +6,7 @@ navbar:
   left:
   - text: "Biosketch"
     href: biosketch.html
-  - text: "Haptics Team"
+  - text: "Touch and Motor Control Lab"
     href: index.html
   - text: "Software and External links"
     href: links.html
