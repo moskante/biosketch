@@ -4,7 +4,7 @@ title: "Haptics Team"
 
 ## Neuroscience Haptics and more {.tabset .tabset-fade .tabset-pills}
 
-Our current research interests include haptics, motor control of the hand, multisensory integration, tactile and visual perception of motion.
+The __Touch and Motor Control Lab__, led by Alessandro Moscatelli, studies how humans perceive and control hand movements through the integration of multiple sensory signals. We focus on haptics, touch, and the motor control of the hand, with a particular interest in how tactile, visual, and proprioceptive cues are combined to support perception and action. Our research has shown, for example, that tactile feedback can act as an auxiliary source of proprioception, that fingertip contact area changes provide useful information for movement control, and that slip and texture cues can bias hand trajectories. To investigate these processes, we combine psychophysics and behavioral experiments with advanced statistical modeling, including Generalized Linear Mixed Models and Bayesian inference. This rigorous quantitative approach allows us to characterize the integration of sensory information and its role in guiding both perception and motor behavior. Current projects explore how tactile and visual motion cues are fused, how the hand adapts when sensory feedback is altered, and how illusions of touch and motion can reveal the predictive mechanisms of the sensorimotor system.
 
 ```{r, echo = FALSE, out.width='40%', fig.margin = TRUE, fig.cap= 'from: (Moscatelli et al., 2016)'}
 knitr::include_graphics('cb-moscatelli-2016.jpg')
